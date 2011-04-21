@@ -28,7 +28,8 @@
 		   (gap (obscure-field (star-field num-stars))))))))
 
 ;; Show me the money, honey.
-(i/view (c/histogram (gap-stats 100 100000)
+(i/view (c/histogram (gap-stats 100 1000)
 		     :nbins 500
 		     :density true
 		     :title "Final Gap Length"))
+
